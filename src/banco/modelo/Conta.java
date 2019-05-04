@@ -3,6 +3,15 @@ package banco.modelo;
 public class Conta {
 
 	private double saldo;
+	private String cpf;
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
 
 	public void depositar(double valor) {
 		if (verificaValor(valor)) {

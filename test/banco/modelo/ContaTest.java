@@ -5,10 +5,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class ContaTest {
-	
+
 	private Conta c;
+
 	@Before
-	public void iniciar(){
+	public void iniciar() {
 		c = new Conta();
 	}
 
@@ -58,12 +59,12 @@ public class ContaTest {
 
 	@Test(expected = IllegalArgumentException.class)
 	public void nao_deve_sacar_valor_zerado() {
-		//Entrada
-		
-		//Execução
+		// Entrada
+
+		// Execução
 		c.sacar(0);
 	}
-	
+
 	@Test
 	public void deve_transferir_valor_positivo() {
 		// Entrada
@@ -76,7 +77,7 @@ public class ContaTest {
 		Assert.assertEquals(0, c1.getSaldo(), 0.001);
 		Assert.assertEquals(100, c2.getSaldo(), 0.001);
 	}
-	
+
 	@Test(expected = IllegalArgumentException.class)
 	public void nao_deve_transferir_valor_negativo() {
 		// Entrada
@@ -94,6 +95,5 @@ public class ContaTest {
 		// Execução
 		c1.transferir(c2, 0);
 	}
-	
 
 }
