@@ -7,8 +7,14 @@ public class Banco {
 
 	private List<Conta> contas = new ArrayList<>();
 
+	private ReceitaFederal receitaFederal;
+
+	Banco(ReceitaFederal receitaFederal){
+		this.receitaFederal = receitaFederal;
+	}
+
+
 	public void cadastrarConta(Conta conta) {
-		ReceitaFederal receitaFederal = new ReceitaFederal();
 
 		if (receitaFederal.verificarCPF(conta.getCpf())) {
 			contas.add(conta);
