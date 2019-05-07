@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97807252-06db-4b9b-bd97-73578856256d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_27_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banco.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/banco/modelo/Banco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/banco/modelo/BancoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/banco/modelo/Conta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/banco/modelo/ContaTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/banco/modelo/ReceitaFederal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco/modelo/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/modelo/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco/modelo/BancoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/banco/modelo/BancoTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="97807252-06db-4b9b-bd97-73578856256d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -264,14 +242,11 @@
       <updated>1557179508060</updated>
       <workItem from="1557179515441" duration="533000" />
       <workItem from="1557185796378" duration="1116000" />
-      <workItem from="1557238562637" duration="3252000" />
+      <workItem from="1557238562637" duration="3666000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContaTest - 2019.05.06 at 18h 58m 43s.xml">
-      <configuration name="ContaTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BancoTest - 2019.05.06 at 18h 59m 45s.xml">
       <configuration name="BancoTest" configurationId="JUnit" />
     </history-entry>
@@ -299,9 +274,12 @@
     <history-entry file="BancoTest - 2019.05.07 at 12h 10m 18s.xml">
       <configuration name="BancoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BancoTest - 2019.05.07 at 12h 14m 04s.xml">
+      <configuration name="BancoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4901000" />
+    <option name="totallyTimeSpent" value="5315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1031" extended-state="6" />
@@ -317,7 +295,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994469" visible="true" weight="0.30584192" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994469" visible="true" weight="0.26231387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
