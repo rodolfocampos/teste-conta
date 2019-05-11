@@ -5,6 +5,15 @@ public class Conta {
 	private double saldo;
 	private String cpf;
 
+	public Conta(double saldo, String cpf) {
+		this.saldo = saldo;
+		this.cpf = cpf;
+	}
+
+	public Conta() {
+
+	}
+
 	public String getCpf() {
 		return cpf;
 	}

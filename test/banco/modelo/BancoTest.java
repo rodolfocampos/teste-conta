@@ -4,9 +4,15 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
+import org.mockito.internal.verification.Times;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import static org.mockito.Mockito.when;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
 public class BancoTest {
@@ -51,6 +57,18 @@ public class BancoTest {
 
         Assert.assertEquals(0, banco.getContas().size());
 
+    }
+    
+    @Test
+    public void deve_enviar_email_quando_conta_for_negativa() {
+    	List<Conta> listaConta = Arrays.asList(new Conta(100, "1234"), new Conta(-50,"1234"),
+    			new Conta(50,"1234"), new Conta(-200,"1234"));
+
+    	Banco banco = spy(new Banco(new ReceitaFederal()));
+    	
+    	banco.notificarContasNegativas(listaConta);
+    	
+    	verify(banco, times(2)).enviarEmail();
     }
 
 }
